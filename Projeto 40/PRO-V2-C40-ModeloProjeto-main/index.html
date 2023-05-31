@@ -4,7 +4,6 @@
 <head>
   <script src="libraries/p5.js"></script>
   <script src="libraries/p5.dom.min.js"></script>
-  <script src="libraries/matter.js"></script>
   <script src="libraries/p5.play.js"></script>
 
   <script src="js/form.js"></script>
@@ -12,31 +11,39 @@
   <script src = "js/game.js"></script>
   <script src = "js/player.js"></script>
 
-
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
 
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     
   <!--Adicione configuração do banco de dados abaixo-->
 
-  const firebaseConfig = {
-  apiKey: "AIzaSyAuuaAseUrrOHkUBZSMSdRoUzRHJbEzVAk",
-  authDomain: "projeto-40-e2b64.firebaseapp.com",
-  databaseURL: "https://projeto-40-e2b64-default-rtdb.firebaseio.com",
-  projectId: "projeto-40-e2b64",
-  storageBucket: "projeto-40-e2b64.appspot.com",
-  messagingSenderId: "795782604525",
-  appId: "1:795782604525:web:2bc166fa769590229e4ee4"
-  };
+  <script>
 
+const firebaseConfig = {
+  apiKey: "AIzaSyDVoNG6VelKLQiJWi9uJT00fCWqUlRI3qQ",
+  authDomain: "projeto-40-6b398.firebaseapp.com",
+  databaseURL: "https://projeto-40-6b398-default-rtdb.firebaseio.com",
+  projectId: "projeto-40-6b398",
+  storageBucket: "projeto-40-6b398.appspot.com",
+  messagingSenderId: "226185052360",
+  appId: "1:226185052360:web:c7206a3a6fed6d32dfe5fd"
+}
+    // Initialize Firebase
+
+    firebase.initializeApp(firebaseConfig);
+</script>
+  
+  
+ 
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
 
 </head>
-
 <body>
   <script src="sketch.js"></script>
 
 
-
 </body>
-
 </html>
